@@ -1,68 +1,4 @@
 <!DOCTYPE html>
-<!-- <html lang="en"> 
-<head> 
-  <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-  <title>Eleventy Blog</title> 
-</head> 
-<body> 
-  <header>
-    Site Header
-    <a href="/About">About</a>
-  </header> 
-  <main> 
-    
-<h2>Waterdeep's Bloody Class Conflict</h2>
-
-<p>
-	About 100 years after Waterdeep: Dragon Heist, the gap between the proletariat
-	and bourgeoisie has grown out of control. The lower class of water deep lacks
-	representation in the government, and suffers from excessive taxation, police
-	brutality, automation of their work, and their children being drafted into the
-	military.
-</p>
-
-<p>
-	Our adventurers find themselves as free agents, looking to make some coin via
-	their fixer, Jimmy Jim Jim, based out of the Yawning Portal. As they spend
-	time in this setting, they will find themselves choosing a side.
-</p>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-	<div class="card fp-card" onclick="window.location='/chapters'">
-		<div class="container">
-			<h4><b>Chapters</b></h4>
-			<p>Campaign story laid out by session</p>
-		</div>
-	</div>
-
-	<div class="card fp-card" onclick="window.location='/places'">
-		<div class="container">
-			<h4><b>Places</b></h4>
-			<p>Locations in and around Waterdeep by ward</p>
-		</div>
-	</div>
-
-	<div class="card fp-card" onclick="window.location='/people'">
-		<div class="container">
-			<h4><b>People</b></h4>
-			<p>Hero, villain, and everything in between</p>
-		</div>
-	</div>
-
-	<div class="card fp-card" onclick="window.location='/map'">
-		<div class="container">
-			<h4><b>Map</b></h4>
-			<p>Map of Waterdeep and more</p>
-		</div>
-	</div>
-</div>
-
-  </main> 
-  <footer>Site Footer</footer> 
-</body> 
-</html> -->
-
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -83,13 +19,34 @@
     </style>
   </head>
   <body>
-    <nav class="nav" style="background: #45618b" tabindex="-1" onclick="this.focus()">
-      <div class="container">
-        <a class="pagename current"  style="background: #45618b" href="#">Waterdeep's Divide</a>
-        <a href="/map">Map</a>
-      </div>
-    </nav>
-    <button class="btn-close btn btn-sm" style="background: #45618b">×</button>
+    <nav class="navbar">
+     <!-- LOGO -->
+     <div class="logo">Waterdeep Divide</div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+         <li><a href="/">Home</a></li>
+         <li><a href="/">About</a></li>
+         <li class="services">
+           <a href="/">Services</a>
+           <!-- DROPDOWN MENU -->
+           <ul class="dropdown">
+             <li><a href="/">Dropdown 1 </a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 3</a></li>
+             <li><a href="/">Dropdown 4</a></li>
+           </ul>
+         </li>
+         <li><a href="/">Pricing</a></li>
+         <li><a href="/">Contact</a></li>
+       </div>
+     </ul>
+   </nav>
     <div class="container">
 <h2>Waterdeep's Bloody Class Conflict</h2>
 
