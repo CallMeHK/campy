@@ -1,10 +1,10 @@
 ---
 layout: base-layout.njk
 pagination:
-  data: collections.person
-  size: 10
-  reverse: true
-  alias: people
+        data: collections.person
+        size: 10
+        reverse: true
+        alias: people
 ---
 
 <h2>People</h2>
@@ -20,7 +20,7 @@ pagination:
 
 	const peopleList = [
 	{% for person in people %}
-		'{{person.data.title}}',
+		['{{person.data.title}}', '{% excerpt person %}'],
 	{% endfor %}
 	]
 
@@ -39,14 +39,14 @@ pagination:
 		}
 
 		render(props, state) {
-			const filteredList = peopleList.filter(person =>
+			const filteredList = peopleList.filter(([person, _]) =>
 				person.toLowerCase().includes(state.search.toLowerCase()))
 
 			return html`<div>
 			<div><input onInput=${e => this.onInput(e)} value=${state.search} /></div>
 			<div>${state.search}</div>
 			<div>
-				${filteredList.map(person => html`<div>${person}</div>`)}
+				${filteredList.map(([person, excerpt]) => html`<div>${person}, ${excerpt}</div>`)}
 			</div>
 			</div>`;
 		}

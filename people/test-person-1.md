@@ -8,4 +8,8 @@ tags: 'person'
 
 Some stuff about the test person
 
+<!-- Excerpt Start -->
+This is included on the homepage.
+<!-- Excerpt End -->
+
 

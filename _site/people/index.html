@@ -64,11 +64,11 @@
 
 	const peopleList = [
 	
-		'Test Person 3',
+		['Test Person 3', 'Some stuff about the test person'],
 	
-		'Test Person 2',
+		['Test Person 2', 'Some stuff about the test person'],
 	
-		'Test Person 1',
+		['Test Person 1', '<p>This is included on the homepage.</p>'],
 	
 	]
 
@@ -87,14 +87,14 @@
 		}
 
 		render(props, state) {
-			const filteredList = peopleList.filter(person =>
+			const filteredList = peopleList.filter(([person, _]) =>
 				person.toLowerCase().includes(state.search.toLowerCase()))
 
 			return html`<div>
 			<div><input onInput=${e => this.onInput(e)} value=${state.search} /></div>
 			<div>${state.search}</div>
 			<div>
-				${filteredList.map(person => html`<div>${person}</div>`)}
+				${filteredList.map(([person, excerpt]) => html`<div>${person}, ${excerpt}</div>`)}
 			</div>
 			</div>`;
 		}
