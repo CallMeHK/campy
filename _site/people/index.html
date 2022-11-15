@@ -8,6 +8,7 @@
 
     <link href="/css/min.css" rel="stylesheet" type="text/css" />
     <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/preact/10.11.3/preact.min.js" integrity="sha512-8wgZ5DspnqR8k+XWoF2GAgkXHIwquXGSc19nLuOOiawSCAmn2nxpYn14Ja6OB2HNTxIyza/gBPC9+k66tqAuGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
     <style>
       h1 {
@@ -51,6 +52,56 @@
     </nav>
     <div class="container">
 <h2>People</h2>
+
+<div id="people-list"></div>
+
+<script type="module">
+	import {
+		html,
+		render,
+		Component,
+	} from "https://unpkg.com/htm/preact/index.mjs?module";
+
+	const peopleList = [
+	
+		'Test Person 3',
+	
+		'Test Person 2',
+	
+		'Test Person 1',
+	
+	]
+
+	console.log(peopleList)
+
+	class App extends Component {
+		constructor() {
+			super();
+			this.state = {
+				search: ''
+			};
+		}
+
+		onInput(e){
+			this.setState({ search: e.target.value })
+		}
+
+		render(props, state) {
+			const filteredList = peopleList.filter(person =>
+				person.toLowerCase().includes(state.search.toLowerCase()))
+
+			return html`<div>
+			<div><input onInput=${e => this.onInput(e)} value=${state.search} /></div>
+			<div>${state.search}</div>
+			<div>
+				${filteredList.map(person => html`<div>${person}</div>`)}
+			</div>
+			</div>`;
+		}
+	}
+
+	render(html`<${App} name="yeet" />`, document.querySelector("#people-list"));
+</script>
 </div>
   </body>
 </html>
