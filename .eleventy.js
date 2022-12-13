@@ -1,6 +1,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('css')
   eleventyConfig.addPassthroughCopy('assets')
+  eleventyConfig.addPassthroughCopy('js')
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
 
   return {
@@ -29,6 +30,9 @@ function extractExcerpt(article) {
  
     if (startPosition !== -1 && endPosition !== -1) {
       excerpt = content.substring(startPosition + separators.start.length, endPosition).trim();
+      excerpt.replace("<p>", "")
+      excerpt.replace("</p>", "")
+      console.log(excerpt)
       return true; // Exit out of array loop on first match
     }
   });

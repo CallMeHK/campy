@@ -57,50 +57,20 @@
 
 <script type="module">
 	import {
-		html,
-		render,
-		Component,
-	} from "https://unpkg.com/htm/preact/index.mjs?module";
+	renderCardList
+	} from "/js/CardSearch.js";
 
 	const peopleList = [
 	
-		['Test Person 3', 'Some stuff about the test person'],
+		['Test Person 3',  'A person with some issues 3', '/people/test-person-3/' ],
 	
-		['Test Person 2', 'Some stuff about the test person'],
+		['Test Person 2',  'A person with some issues 2', '/people/test-person-2/' ],
 	
-		['Test Person 1', '<p>This is included on the homepage.</p>'],
+		['Test Person 1',  'A person with some issues', '/people/test-person-1/' ],
 	
 	]
 
-	console.log(peopleList)
-
-	class App extends Component {
-		constructor() {
-			super();
-			this.state = {
-				search: ''
-			};
-		}
-
-		onInput(e){
-			this.setState({ search: e.target.value })
-		}
-
-		render(props, state) {
-			const filteredList = peopleList.filter(([person, _]) =>
-				person.toLowerCase().includes(state.search.toLowerCase()))
-
-			return html`<div>
-			<div><input onInput=${e => this.onInput(e)} value=${state.search} /></div>
-			<div>${state.search}</div>
-			<div>
-				${filteredList.map(([person, excerpt]) => html`<div>${person}, ${excerpt}</div>`)}
-			</div>
-			</div>`;
-		}
-	}
-
-	render(html`<${App} name="yeet" />`, document.querySelector("#people-list"));
+	renderCardList(peopleList, "#people-list")
 </script>
 </div>
   </body>
