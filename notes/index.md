@@ -109,15 +109,64 @@ A begger comes up to a party member, asking for money. Says he used to own a cor
 
 You look up to the rooftops - several dwarves are leaping from rooftop to rooftop 
 
-gish - 99
-sg1 - 20
-sg2 - 14
+The party is separated from the Force Grey caravan by 75m. 
 
-warlord - 70
-warlord2 - 17
+Durin Thickbeard confronts the Squiddly, as he knows the payload is ichor, used for reanimating dead Force grey troops. It isnt explicitly said what he knows, players still dont know. Squiddly cuts Durin's arm off mid conversation, Durin is saved by another paladin when he attempts to lay a second blow. 
 
+#### Combat 
 
+1 gish, 2 warlords, 6 minions
+Players got off too easy, i was a little drunk and frustrated with how slowly combat was moving. 
 
+#### Rewards
+ - Telemancers cloak: A dark purple shimmering cloak. Allows a character to swap places when using misty step. 
+ - Patriot hammer: Deals 1d12 bludgeoning damage + 1d6 fire damage. The hammer is chromed all chrome with `out of my cold dead hands` inscribed along the hilt. Roll disadvantage on stealth. 
+ - Armor of the phoenix: AC: 18, stealth: disadvantage - Resurrects user when they fall once per day. Player regains 10 + up to 3 hit dies worth of health. Always warmly glowing.
+ - Bracers of Elvish Mastery: Super green and stylish. Your dex becomes 21.
+ - Amulet of twincast: one time use - cast a spell on your turn without using a spellslot. this counts as a free action.Inscribed with a love note to a dragon. 
+ - Hat of focus: a very cool hat that sometimes bites you. Pay 25% of your HP: reroll a concentration save.
+
+#### Post combat
+
+Looking towards the othe caravan, you seen carnage. The bodies of the Force Grey solders lay on the street, torn asunder. There is one last soldier backing away from several figures you see in the distance. Two shots fire, blowing off half of the soldiers neck. As the soldier falls, you see the armor's mechanism inject all of the swirling fluids into the soldier. His neck fills with a jet black shiny substance, he puke black bile, and three gnarled sharp appendages burst from his back. In a feat of incredible speed, he begins to sprint towards the human figures that assaulted the caravan. The scythes whip back and forth, deflecting gunfire. The necromantic monstrosity goes down just as fast as it got back up though - a man with a huge hammer matches its speed, swinging the hammer through the center of its body. Its appendages fly everywhere. 
+
+#### Chat with Colt Remington III
+
+Colt approaches the party, badly beaten. He wears a torn up wife beater and a plaid kilt that doesnt leave much to the imagination. His hammer is crimson with yellow trim, inscribed with `unionize or die` along the hilt. You notice colt is bleeding and pretty beaten up - something strange though, some of the blood is black. 
+
+ - "Hey yall, I know its been a rough day for both of us. I know yall are mercenaries, i know yall didnt know who this job was for. Been runnin raids on these caravans for nearly half a year now." Stops and pulls out a syringe, plunges it into his arm and gasps. Wounds begin to close up, black bile leaks from his eyes. "Yer day aint over yet. Im here to give you a choice that you dont have much time to think over. Force Grey is on their way now - you can either stay here, and deal with the consequences of losing these convoys. Or you can come with us, and get outta town. Have an opportunity to lie low, stick it to the man. "
+ - "Im leaving with that caravan no matter what." there are 8 rag tag soldiers behind him. 
+
+### Choice 1: Wait for Force Grey
+
+The following events will occur:
+
+ - Colt will tell the party to back off. They hotwire the eldritch machine, and hop on the back of the wagon. It begins striding at an incredible pace. 
+ - Force Grey immediately shows up via portal and takes the party into custody. 
+ - The party is interrogated. Midway through interrogation, the investigator gets wind of a griffin spotting the machines. 
+ - The party gets on a griffin and is teleported to the location of the chase. They have the opportunity to snag one wagon. 
+ - The party is then sent to Fort Kelemvor, along with an artillery crew. Their job is to break through the forcemages protection spell so that the eldritch artillery can knock down the gate, and seize the fort. 
+
+#### NPCs
+ - Squiddly will be the interrogator
+ - Fred Foreman will be the commander in charge of the assault on Kelemvor's gates.
+
+### Choice 2: Go with Colt
+
+The following events will occur: 
+
+ - You hop on the hotwired eldritch machine with Colt. It takes off at an incredible speed.
+ - Griffins appear from portals. You must fend them off, or risk taking significant damage. Colt falls off.
+ - You arrive at Fort Kelemvor, the preprogrammed destination of the machine. The guards let you in. You can either say you brought it for them, or you are seeking sanctuary at Kelemvor. 
+ - Portals appear, horde and cannons appear. Destroy the forcemages so you can destroy the cannons.
+
+## Todo
+
+ - Write newspaper for intro
+ - Make cards for new equipment
+ - Write down mechanics for griffin encounter
+ - Figure out how zone combat will work for kelemvor battle
+ - NPC details for squiddly and fred
 
 ### Scratch
 The caravan makes its way through the hillside. Passing through customs, you see Squiddly hand off a small, but full changepurse to the guard.
