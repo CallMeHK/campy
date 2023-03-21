@@ -1,5 +1,26 @@
 ---
 layout: base-layout.njk
+pagination:
+        data: collections.chapter
+        size: 10
+        reverse: true
+        alias: chapters
 ---
 
 <h2>Chapters</h2>
+
+<div id="chapter-list"></div>
+
+<script type="module">
+	import {
+	renderCardList
+	} from "/js/CardSearch.js";
+
+	const chapterList = [
+	{% for chapter in chapters %}
+		['{{chapter.data.title}}',  '{{chapter.data.description}}', '{{chapter.url}}' ],
+	{% endfor %}
+	]
+
+	renderCardList(chapterList, "#chapter-list")
+</script>

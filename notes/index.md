@@ -195,14 +195,8 @@ Several paladins approach them. Colt coughs - "we need it for the cause, dont le
  - Figure out how zone combat will work for kelemvor battle
  - NPC details for squiddly and fred
 
-### Scratch
-The caravan makes its way through the hillside. Passing through customs, you see Squiddly hand off a small, but full changepurse to the guard.
+## Escape from Kelemvor
 
-party will make way through streets, become separated, have Thickbeard scene, then battle with 3 stoneguard, 2 warlord, 1 gish
-
-TODO: come up with description of passing through town, examples of poverty, an interaction or two with locals (maybe a beggar and little kid?)
-
-gish 1 - 63
-gish 2 - 5
-mage 1 - 41
-mage 2 - 22
+> Death is but part of life: fear it not, evade it not, and view it not as evil. To fear death delivers you into the hands of those who can bring death down upon you. Die with dignity, neither raging nor seeking to embrace undeath. Do honor to the dead, for their strivings in life brought Faerun to where it is now, and to forget them is to forget also where we are now—and why.
+”
+— Kelemvor's charge to novitiates
