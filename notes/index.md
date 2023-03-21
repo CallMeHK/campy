@@ -134,7 +134,7 @@ Looking towards the othe caravan, you seen carnage. The bodies of the Force Grey
 
 Colt approaches the party, badly beaten. He wears a torn up wife beater and a plaid kilt that doesnt leave much to the imagination. His hammer is crimson with yellow trim, inscribed with `unionize or die` along the hilt. You notice colt is bleeding and pretty beaten up - something strange though, some of the blood is black. 
 
- - "Hey yall, I know its been a rough day for both of us. I know yall are mercenaries, i know yall didnt know who this job was for. Been runnin raids on these caravans for nearly half a year now." Stops and pulls out a syringe, plunges it into his arm and gasps. Wounds begin to close up, black bile leaks from his eyes. "Yer day aint over yet. Im here to give you a choice that you dont have much time to think over. Force Grey is on their way now - you can either stay here, and deal with the consequences of losing these convoys. Or you can come with us, and get outta town. Have an opportunity to lie low, stick it to the man. "
+ - "Hey yall, I know its been a rough day for both of us. Yall are mercenaries, i know yall didnt know who this job was for. Been runnin raids on these caravans for nearly half a year now." Stops and pulls out a syringe, plunges it into his arm and gasps. Wounds begin to close up, black bile leaks from his eyes. "Yer day aint over yet. Im here to give you a choice that you dont have much time to think over. Force Grey is on their way now - you can either stay here, and deal with the consequences of losing these convoys. Or you can come with us, and get outta town. Have an opportunity to lie low, stick it to the man. "
  - "Im leaving with that caravan no matter what." there are 8 rag tag soldiers behind him. 
 
 ### Choice 1: Wait for Force Grey
@@ -151,14 +151,41 @@ The following events will occur:
  - Squiddly will be the interrogator
  - Fred Foreman will be the commander in charge of the assault on Kelemvor's gates.
 
+#### Force Grey arrives
+
+A couple squads of Force Grey soldiers, clad in the same armor, coursing with shimmering fluids, stream from two portals that appear on each side of the party. Out strides Squiddly Dahmer, demanding that the party be tied up - 
+
+ - "I KNEW they were traitors fromm the start! We should have been able to spare another squad of men."
+ - "Are they paying you more than we had offered? "
+
+
 ### Choice 2: Go with Colt
 
 The following events will occur: 
 
  - You hop on the hotwired eldritch machine with Colt. It takes off at an incredible speed.
- - Griffins appear from portals. You must fend them off, or risk taking significant damage. Colt falls off.
+ - Griffins appear from portals. You must fend them off, or risk taking significant damage.
  - You arrive at Fort Kelemvor, the preprogrammed destination of the machine. The guards let you in. You can either say you brought it for them, or you are seeking sanctuary at Kelemvor. 
  - Portals appear, horde and cannons appear. Destroy the forcemages so you can destroy the cannons.
+
+#### Griffin chase
+
+Griffins start 30 feet away
+
+Party starts as 3 on each side of the caravan - have them roll initiative
+
+2 griffins are chasing the cart, each with a rider with a halberd, and a mage that can cast magic missle
+
+They gain 10 feet each round. the party must last 5 rounds to get to Fort Kelemvor. 
+
+#### Fort Kelemvor
+
+If the players have not killed the griffins, the fort fires cannons and knocks them out of the sky. The doors slowly open - 
+
+When the players pull into the fort, they notice that Colts eyes have rolled into the back of his head. he has fallen backwards and black bile is flowing steadily out of his mouth, while making gasping noises. 
+
+Several paladins approach them. Colt coughs - "we need it for the cause, dont let em... "
+
 
 ## Todo
 
@@ -174,3 +201,8 @@ The caravan makes its way through the hillside. Passing through customs, you see
 party will make way through streets, become separated, have Thickbeard scene, then battle with 3 stoneguard, 2 warlord, 1 gish
 
 TODO: come up with description of passing through town, examples of poverty, an interaction or two with locals (maybe a beggar and little kid?)
+
+gish 1 - 63
+gish 2 - 5
+mage 1 - 41
+mage 2 - 22

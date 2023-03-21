@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>D&D Campaign</title>
+
+    <link href="/css/min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/preact/10.11.3/preact.min.js" integrity="sha512-8wgZ5DspnqR8k+XWoF2GAgkXHIwquXGSc19nLuOOiawSCAmn2nxpYn14Ja6OB2HNTxIyza/gBPC9+k66tqAuGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <style>
+      h1 {
+        margin: 0.2em 0;
+        border-bottom: 5px solid;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Waterdeep Divide</div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/chapters">Chapters</a></li>
+          <li><a href="/places">Places</a></li>
+          <li><a href="/people">People</a></li>
+          <li><a href="/map">Map</a></li>
+          <!-- 
+          <li class="services">
+            <a href="/">Services</a>
+           <ul class="dropdown">
+             <li><a href="/">Dropdown 1 </a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 3</a></li>
+             <li><a href="/">Dropdown 4</a></li>
+           </ul>
+          </li>
+          -->
+        </div>
+      </ul>
+    </nav>
+    <div class="container">
+<h2>Map</h2>
+
+<img src="/assets/waterdeep_map.jpg" width="100%" onclick="window.open(this.src)">
+</div>
+  </body>
+</html>
